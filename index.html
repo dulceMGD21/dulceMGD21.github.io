@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--meta charset="utf-8"-->
+        <title>Proyecto 2 - Mi página web CUSA</title>
+		<link rel="shortcut icon" href="cusa.png"/>
+
+	<style>
+    body {
+	background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210313/pngtree-pastel-blue-flat-gradient-background-image_584093.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	height: auto;		
+        color: Black;     
+     }
+
+    .btg{
+       background-color:MediumBlue;
+       color:white;
+       font-size:1.2em;
+       padding:3px;		     
+     }
+
+    form {
+      margin: 0 auto;
+      width: 500px;
+      padding: 1em;
+      border: 3px solid rgb(30, 144, 255);
+      border-radius: 1em;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    form li+li {
+      margin-top: 1em;
+    }
+
+    label {
+      display: inline-block;
+      width: 90px;
+
+    }
+
+    input,
+    option {
+      font: 1em sans-serif;
+      width: 400px;
+      box-sizing: border-box;
+      border: 2px solid #999;
+    }
+
+    input:focus,
+    textarea:focus {
+      border-color: #000;
+    }
+
+    textarea {
+      vertical-align: top;
+      height: 5em;
+    }
+
+    .button {
+      padding-left: 90px;
+    }
+
+    button {
+      margin-left: .5em;
+    }
+        .descripción {
+            font-family: cursive;
+            margin-right: 30px;
+        }
+	.imagenes{
+     	    font-family:verdana;
+	    text-align:center; 
+    	  }
+	h1{
+	 text-align:center; 
+	color:SteelBlue;
+	}
+	h2{
+   	 color:CornflowerBlue;
+	}
+	</style>
+    </head>
+    <body class="descripción">
+	<img src="https://static.wixstatic.com/media/878497_30c41848a2164604889079f3dfbd0cd2~mv2.jpg/v1/fit/w_2500,h_1330,al_c/878497_30c41848a2164604889079f3dfbd0cd2~mv2.jpg"
+        width="100">
+        <h1>Centro Universitario San Ángel</h1> <br><br>
+	<audio controls>
+    	     <source src="I Like It piano cover.mp3" type="audio/mp3">
+	</audio>
+
+    <ol style="color:rgb(60, 63, 214);">
+        <h2><strong>
+                <li>Página oficial de la escuela</li>
+	</strong></h2>
+        <ol class = "imagenes">
+	  
+        <iframe loading="lazy" src="https://www.cusa.edu.mx/" style="border:0px #ffffff none;" name="Victor Mochere"
+            scrolling="si" frameborder="1" marginheight="0px" marginwidth="0px" height="650px" width="900px"
+            allowfullscreen></iframe>
+	
+        </ol>
+           
+        <br>
+        <br>
+        <h2><strong>
+                <li>Mapa donde se encuentra la escuela:</li>
+            </strong></h2>
+            <ol class = "imagenes">  
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.7629162801045!2d-99.16413748461278!3d19.422647046030804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fc023b6818c5%3A0xce1091c5ea5be159!2sCentro%20Universitario%20San%20%C3%81ngel!5e0!3m2!1ses!2smx!4v1651105195937!5m2!1ses!2smx"
+            width="900px" height="500px" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </ol>
+ 
+
+        <br>
+        <br>
+        
+        <h2><strong>
+                <li>Página de "Radio CUSA":</li>
+            </strong></h2>
+            <ol class = "imagenes">  
+        <iframe loading="lazy" src="https://radiocusa.radio12345.com/" style="border:0px #ffffff none;"
+            name="Victor Mochere" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500px"
+            width="900px" allowfullscreen></iframe>
+        	</ol>
+        <br>
+        <br>
+
+               <h2><strong>
+                <li>Video promocional de la escuela:</li>
+            </strong></h2>
+            <ol class = "imagenes">  
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Y5Q-Vin1Apo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </ol>
+    </ol>
+    <br>
+    <br>
+
+  <form action="" method="post">
+    <ul>
+      <li>
+        <label for="name">Nombre(s):</label>
+        <input type="text" id="user_name" name="user_name" placeholder="Escriba su nombre"/>
+      </li>
+      <li>
+        <label for="Apellido">Apellidos:</label>
+        <input type="text" id="ape_1" name="ape_1" placeholder="Escriba sus apellidos" />
+      </li>
+      <li>
+        <label for="mail">Correo electrónico:</label>
+        <input type="email" id="user_email" name="user_email" placeholder="Escriba su correo electrónico"/>
+      </li>
+      <li>
+        <label for="Telefonos">Teléfono / Celular:</label>
+        <input type="text" id="telefono_1" name="telefono_1" placeholder="Escriba su Teléfono/Celular"/>
+      </li>
+      <li>
+        <label for="Institución">Institución o Empresa dónde trabaja:</label>
+        <input type="text" id="institución_1" name="institución_1" placeholder="Escriba institución o empresa dónde trabaja" />
+      </li>
+      <li>
+        <label for="Puesto">Puesto:</label>
+        <input type="text" id="puesto_1" name="puesto_1" placeholder="Escriba su puesto"/>
+      </li>
+      <li>
+        <label for="Grado">Grado escolar:</label>
+        <input type="text" id="grado_1" name="grado_1" placeholder="Escriba su grado"/>
+      </li>
+      <li>
+        <label for="menu2">Oferta Educativa:</label>
+        <select name="menu_2" id="menu_2">
+          <option selected>Seleccione uno</option>
+
+          <option value="Bachillerato en Contabilidad">Bachillerato en Contabilidad</option>
+          <option value="Bachillerato en Computación">Bachillerato en Computación</option>
+          <option value="Bachillerato en Diseño Gráfico">Bachillerato en Diseño Gráfico</option>
+          <option value="Licenciatura en AAdministración de Empresas">Licenciatura en Administración de Empresas</option>
+          <option value="Licenciatura en Contaduria Pública">Licenciatura en Contaduria Pública</option>
+          <option value="Licenciatura en Derecho">Licenciatura en Derecho</option>
+          <option value="Licenciatura en Diseño Gráfico">Licenciatura en Diseño Gráfico</option>
+          <option value="Licenciatura en Ingeniería en Sistemas Computacionales">Licenciatura en Ingeniería en Sistemas Computacionales</option>
+          <option value="Especialidad en Diseño Web">Especialidad en Diseño Web</option>
+          <option value="Maestría en AAdministración">Maestría en Administración</option>
+
+        </select>
+      </li>
+      <li>
+        <label for="name1">Atendido por:</label>
+        <select name="menu_1" id="menu_1">
+          <option selected>Seleccione uno</option>
+
+          <option value="Interesado">Interesado</option>
+          <option value="Adrian Arroyo">Adrian Arroyo</option>
+          <option value="Gustavo Sánchez">Gustavo Sánchez</option>
+          <option value="Samantha Navarrete">Samantha Navarrete</option>
+          <option value="Andrea Blancas">Andrea Blancas</option>
+          <option value="José Reyes">José Reyes</option>
+          <option value="Lic. Manuel Martínez">Lic. Manuel Martínez</option>
+
+        </select>
+      </li><br>
+      <li>
+        <label for="Facebook">Facebook:</label>
+        <input type="text" id="facebook_1" name="facebook_1" placeholder="Escriba su facebook"/>
+      </li>
+      <li>
+        <label for="name">Comentarios y preguntas:</label>
+        <input type="text" id="comentario_1" name="comentario_1" placeholder="Escriba su comentarios o preguntas"/>
+      </li>
+
+      <li class="button">
+        <!-- <button>Envíe su mensaje</button> -->
+        <button onclick="formulario()">Envíe su mensaje</button>
+      </li>
+    </ul>
+  </form>
+    		<div id="fb-root"></div>
+		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v14.0" nonce="z64XVyMq"></script>
+		<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="button" data-action="like" data-size="small" data-share="false"></div>
+		<div id="fb-root"></div>
+		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v14.0" nonce="xQOCT71B"></script>
+		<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div><br><br>
+
+	<button class="bt3 btg"onclick="javascript:alert('Autor: Dulce María Guazo Díaz\nFecha de creación: 07/06/2022\nCorreo electrónico: dulcemariaguazo215@gmail.com\n');">Datos</button><br><br>
+</body>
+
+<script>
+  function formulario() {
+  var name = document.getElementById('user_name');
+  var apellido = document.getElementById('ape_1');
+  alert('Nombre:  '+name.value+'\nApellidos:  '+ apellido.value+'\nGrado escolar:  '+document.getElementById('grado_1').value+'\nInstitución o Empresa dónde trabaja:  '+document.getElementById('institución_1').value+'\nPuesto:  '+document.getElementById('puesto_1').value+'\nTeléfono / Celular:  '+document.getElementById('telefono_1').value+'\nCorreo electrónico:  '+document.getElementById('user_email').value+'\nFacebook:  '+document.getElementById('facebook_1').value+'\nOferta Educativa:  '+document.getElementById('menu_2').value+'\nAtendido por:  '+document.getElementById('menu_1').value+'\nComentarios y preguntas:  '+document.getElementById('comentario_1').value);
+
+  
+}
+</script>
+
+</html>
